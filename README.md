@@ -5,5 +5,5 @@ A collection of unofficial [TamperMonkey](https://chrome.google.com/webstore/det
 ## Available Scripts
 
 * AWS Inspector
-  * [CIS Rule Exclusions](https://github.com/lloydpick/aws-tampermonkey/blob/master/docs/cis-rule-exclusions.user.md)
-  * [UI Improvements](https://github.com/lloydpick/aws-tampermonkey/blob/master/docs/ui-improvements.user.md)
+  * [CIS Rule Exclusions](https://github.com/lloydpick/aws-tampermonkey/blob/master/docs/cis-rule-exclusions.md)
+  * [UI Improvements](https://github.com/lloydpick/aws-tampermonkey/blob/master/docs/ui-improvements.md)
