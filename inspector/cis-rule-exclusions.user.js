@@ -3,7 +3,7 @@
 // @homepageURL  https://github.com/lloydpick/aws-tampermonkey
 // @downloadURL  https://github.com/lloydpick/aws-tampermonkey/raw/master/inspector/cis-rule-exclusions.user.js
 // @supportURL   https://github.com/lloydpick/aws-tampermonkey/issues
-// @version      0.1
+// @version      0.2
 // @description  Fades out issues you know about
 // @author       Lloyd Pick <lloydpick@gmail.com>
 // @match        https://*.console.aws.amazon.com/inspector/home*
@@ -28,8 +28,8 @@ var cisBenchmarkExclusions = [
 ]
 
 function lookForExclusions(node) {
-    if (node.text().match(/is not compliant with rule/g)) {
-        var ruleId = originalText.match(/not compliant with rule ([\d\.]*)/)
+    if (node.text().match(/ ((\d+\.)(\d+\.)?(\d+))/g)) {
+        var ruleId = node.text().match(/ ((\d+\.)(\d+\.)?(\d+))/)
         if (cisBenchmarkExclusions.includes(ruleId[1])) {
             node.css("text-decoration", "line-through");
             node.closest(".ui-grid-cells").css("opacity", "0.25");
