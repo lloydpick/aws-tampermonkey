@@ -4,6 +4,8 @@ A collection of unofficial [TamperMonkey](https://chrome.google.com/webstore/det
 
 ## Available Scripts
 
+* AWS CodeBuild
+  * [Project Emojis](https://github.com/lloydpick/aws-tampermonkey/blob/master/docs/project-emoji.md)
 * AWS Inspector
   * [CIS Rule Exclusions](https://github.com/lloydpick/aws-tampermonkey/blob/master/docs/cis-rule-exclusions.md)
   * [UI Improvements](https://github.com/lloydpick/aws-tampermonkey/blob/master/docs/ui-improvements.md)
