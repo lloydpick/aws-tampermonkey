@@ -1,4 +1,4 @@
-# UI Improvements
+# AWS Inspector - UI Improvements
 
 * [Install](https://github.com/lloydpick/aws-tampermonkey/raw/master/inspector/ui-improvements.user.js)
 * [View Code](https://github.com/lloydpick/aws-tampermonkey/blob/master/inspector/ui-improvements.user.js)

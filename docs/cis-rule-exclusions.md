@@ -1,4 +1,4 @@
-# CIS Rule Exclusions
+# AWS Inspector - CIS Rule Exclusions
 
 * [Install](https://github.com/lloydpick/aws-tampermonkey/raw/master/inspector/cis-rule-exclusions.user.js)
 * [View Code](https://github.com/lloydpick/aws-tampermonkey/blob/master/inspector/cis-rule-exclusions.user.js)
